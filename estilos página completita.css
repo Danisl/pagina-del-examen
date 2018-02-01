@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Lobster|Poiret+One|Saira+Extra+Condensed');
+*{
+	margin: 0px;
+	padding: 0px;
+}
+header{
+	background-color: black;
+	background-image: url(imágenes/lg_1960AV.png);
+	background-position: right;
+	background-size: 5.91%;
+	backface-visibility: 2%;
+	height: 60px;
+	width: 98.73%;
+	font-family: lobster;
+	font-size: 50px;
+	color: khaki;
+	text-shadow: 6px 1px 0 black;
+	padding: 10px;
+	background-repeat: repeat;
+	
+}
+nav{
+	background-color: cadetblue;
+	position: relative;
+	height: 400px;
+	width: 20%;
+	
+}
+
+section{
+	background-color: #7C7C7C;
+	font-family: poiret one;
+	color: aliceblue;
+	position: relative;
+	bottom: 400px;
+	left: 20%;
+	width: 80%;
+	
+}
+footer{
+	background-color: aquamarine;
+	clear: left;
+	position: relative;
+	height: 70px;
+	bottom: 400px;
+	width: 100%;
+}
+.article_1{
+	height: 200px
+		
+	}
+.article_2{
+	height: 200px;
+	}
+
+.guitarra{
+	height: 110%;
+	float: left;
+	
+	
+	
+}
+.youtube{
+	float: right;
+	height: 70px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.botonico1{
+	background-color: khaki;
+	color: #D02B2E;
+	display: inline block;
+	font-size: 25px;
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+	margin: 20px;
+	padding: 10px 0px;
+	text-shadow: 0 0 0;
+	text-align: center;
+	width: 200px;
+	text-decoration:none;
+	height: 20px;
+	box-shadow: 0px 3px 0px;
+	float: right;
+	border-radius: 20px;
+}
+
+.facebook{
+	height: 67px;
+	float: right;
+	margin: 0px;
+	padding: 0px;	
+}
+.twitter{
+	height: 67px;
+	float: right;
+	margin: 0px;
+	padding: 0px;
+	
+}
+.menulateral{
+	width: 80%;
+	background-color: antiquewhite;
+	list-style: none;
+	font-family: Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black," sans-serif";
+	background-color: aliceblue;
+	border-radius: 0px 20px 20px 0px; 
+	margin-bottom: 80px;
+	height: 30px;
+	text-align: center;
+	box-shadow: 5px 0px 10px;
+	color: black;
+	-webkit-transition: padding-left 0.6s;
+}
+.menulateral:hover{
+	padding-left: 50px;
+}
